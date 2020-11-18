@@ -1,6 +1,12 @@
 package apupoo.modelo;
 
-public class Libro {
+import java.io.Serializable;
+
+public class Libro implements Serializable {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     private int ISBN;
 	private String titulo;
 
