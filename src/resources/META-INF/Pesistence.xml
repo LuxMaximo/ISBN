@@ -1,0 +1,18 @@
+<? xml versión = " 1.0 " codificación = " UTF-8 " ?>
+< persistencia  xmlns : xsi = " http://www.w3.org/2001/XMLSchema-instance "
+             xsi : schemaLocation = " http://java.sun.com/xml/ns/persistence
+             http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd "
+             versión = " 2.0 "  xmlns = " http://java.sun.com/xml/ns/persistence " >
+
+  < persistence-unit  name = " aplicacion " >
+    < propiedades >
+        < nombre de propiedad  = " javax.persistence.jdbc.driver " value = " " /> 
+        < property  name = " javax.persistence.jdbc.url "  value = " " />
+        < nombre de propiedad  = " javax.persistence.jdbc.user " value = " " /> 
+        < nombre de propiedad  = " javax.persistence.jdbc.password " value = " " /> 
+        < propiedad  nombre = " hibernate.dialect "  value = " " />
+        < propiedad  nombre = " hibernate.hbm2ddl.auto "  value = " " />
+    </ propiedades >
+  </ unidad-de-persistencia >
+
+</ persistencia >
